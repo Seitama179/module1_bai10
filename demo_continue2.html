@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Continue</title>
+</head>
+<body>
+<script>
+    let i = +0;
+    while (i<10){
+        i++;
+        //Nếu i chẵn, bỏ qua vòng lặp này, không in ra giá trị của i
+            if(i%2 ==0) {
+            continue;
+        }
+        document.writeln(i); //=>in ra các số i lẻ
+    }
+</script>
+</body>
+</html>
