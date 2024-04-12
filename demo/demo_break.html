@@ -6,12 +6,26 @@
 </head>
 <body>
 <script>
-    for (let i = 0; i < 10; i++) {
-        //Nếu i ==5, kết thúc vòng lặp
-        if(i ==5) {
-            break;
+    // for (let i = 0; i < 10; i++) {
+    //     //Nếu i ==5, kết thúc vòng lặp
+    //     if(i ==5) {
+    //         break;
+    //     }
+    //     document.writeln(i);
+    // }
+//in n so le dau tien
+//     for (let i = 1; i < 10; i+=2) {
+//         document.writeln(i);
+//     }
+
+    let count=0;
+    let start=8;
+    while (count<8){
+        if (start%3==0){
+            document.write(start+" ");
+            count++;
         }
-        document.writeln(i);
+        start++;
     }
 </script>
 </body>
